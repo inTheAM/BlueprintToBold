@@ -22,9 +22,13 @@ public/                   everything that gets published
   assets/img/             photos, favicon, share image
   robots.txt, sitemap.xml
 wrangler.jsonc            Cloudflare config: serves the public/ folder
+docs/concept/             the original concept board and notes on how the build differs
 ```
 
 It's a plain static site: no build step, nothing to install.
+
+The design direction the site was built from is written up in
+[docs/concept](docs/concept/README.md). Only `public/` is deployed.
 
 ## Preview locally
 
